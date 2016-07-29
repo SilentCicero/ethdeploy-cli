@@ -1,0 +1,39 @@
+{
+  "name": "ethdeploy-cli",
+  "version": "0.0.5",
+  "description": "A CLI for the ethdeploy contract staging facility.",
+  "main": "index.js",
+  "bin": {
+    "ethdeploy": "./index.js"
+  },
+  "scripts": {
+    "example": "node ./index ./example/ethdeploy.config.js ./example/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silentcicero/ethdeploy-cli.git"
+  },
+  "keywords": [
+    "ethdeploy",
+    "ethereum",
+    "eth",
+    "solidity",
+    "contract"
+  ],
+  "author": "Nick Dodson <thenickdodson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silentcicero/ethdeploy-cli/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "ethereumjs-testrpc": "^2.0.8"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "meow": "^3.7.0",
+    "ethdeploy": "0.1.2"
+  },
+  "homepage": "https://github.com/silentcicero/ethdeploy-cli#readme"
+}

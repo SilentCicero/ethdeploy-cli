@@ -1,0 +1,42 @@
+{
+  "morden": {
+    "SimpleStore": {
+      "address": "0x41a96eaf787d48ac8c69b6a1933a2f724217b07f",
+      "gas": 3000000,
+      "from": "0x9e72d27b41e3416aa9364f51d7d165b0a6294648",
+      "transactionHash": "0x154af7ae6b55e19bedf6f52a9647db18ebfc97f177b64a2d8269ab8d1c1ffbb1"
+    },
+    "SomeCustomInstance": {
+      "address": "0xdeee02c28342bed5151cfcc21887107fe6e36848",
+      "gas": 2900000,
+      "from": "0xcab77beb1158d312b512cbaae27cd1b3c73f444d",
+      "transactionHash": "0x2b2f8ad666b5941fbcf25cab35b20d51a2feb998ff6c8a8db8fde3242865a2fb"
+    },
+    "SimpleStoreService": {
+      "address": "0xe11fd5d26bf656ea04c45ef12d8ef504d2dbeca1",
+      "gas": 3000000,
+      "from": "0x9e72d27b41e3416aa9364f51d7d165b0a6294648",
+      "transactionHash": "0x2482de0a0da38aa5790d3b157f9f8095d02d546943ef2061deca95cf4119d1c7"
+    }
+  },
+  "testrpc": {
+    "SimpleStore": {
+      "address": "0xe6d4169c400bbb744eee635a78419b53547b0a15",
+      "gas": 3000000,
+      "from": "0x9e72d27b41e3416aa9364f51d7d165b0a6294648",
+      "transactionHash": "0x355d36b14d28c6c0a9b90e2fc38981e3b82e0f3f9f989a51f87f769dca20a461"
+    },
+    "SomeCustomInstance": {
+      "address": "0x32df917fc27bd8dc6297f273af4182d3955e80bf",
+      "gas": 2900000,
+      "from": "0xcab77beb1158d312b512cbaae27cd1b3c73f444d",
+      "transactionHash": "0xfeff7cd3cd5c9e20a9ddb7f22863ac069af6fc7d241e312ec972a59cc01e31ff"
+    },
+    "SimpleStoreService": {
+      "address": "0xea753c9bb1d799d83263dc8a4130551cae62eefb",
+      "gas": 3000000,
+      "from": "0x9e72d27b41e3416aa9364f51d7d165b0a6294648",
+      "transactionHash": "0xd08b9aca9df3c87f4f9238b8de1d7e4674dfe09bb5b5aeff6ee92ab8b20aacce"
+    }
+  }
+}
