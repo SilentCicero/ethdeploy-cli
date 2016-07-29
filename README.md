@@ -1,4 +1,4 @@
-## ethdeploy-cli | webpack like cli for smart-contract deployment
+## ethdeploy-cli
 
 A CLI for the [ethdeploy](http://github.com/silentcicero/ethdeploy) Ethereum smart-contract deployment staging facility.
 
@@ -39,6 +39,12 @@ ethdeploy-build [2016-07-29T04:06:48.741Z]:  File Generated: './example/environm
     Details:
       Generation Time: 2016-07-29T04:06:48.741Z
       File Generated: ./example/environments.json [modified]
+```
+
+## CLI Inputs
+
+```
+ethdeploy <config-path> <output-dir-path> [options]
 ```
 
 ## Future/Todo
